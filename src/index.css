@@ -1,0 +1,9 @@
+/* Eventify Root Entry Stylesheet */
+@import './assets/styles/global.css';
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

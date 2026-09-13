@@ -1,0 +1,76 @@
+/* ==========================================================================
+   EVENTIFY DESIGN SYSTEM - VARIABLES & DESIGN TOKENS
+   Modern Startup Aesthetic: Energetic, Clean, Premium
+   ========================================================================== */
+
+:root {
+  /* Brand Primary & Accents */
+  --primary: #4F46E5;
+  --primary-hover: #4338CA;
+  --primary-light: #EEF2FF;
+  --primary-rgb: 79, 70, 229;
+
+  --secondary: #0F172A;
+  --secondary-hover: #1E293B;
+
+  --accent-coral: #FF5A5F;
+  --accent-coral-hover: #E0484D;
+  --accent-coral-light: #FFF1F2;
+  --accent-coral-rgb: 255, 90, 95;
+
+  --accent-amber: #F59E0B;
+  --accent-amber-light: #FEF3C7;
+
+  --accent-emerald: #10B981;
+  --accent-emerald-light: #D1FAE5;
+
+  --accent-violet: #8B5CF6;
+  --accent-violet-light: #EDE9FE;
+
+  --accent-cyan: #06B6D4;
+  --accent-cyan-light: #CFFAFE;
+
+  /* Neutrals & Surfaces */
+  --bg-main: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --bg-card-muted: #F1F5F9;
+  --bg-subtle: #F8FAFC;
+  --bg-glass: rgba(255, 255, 255, 0.85);
+
+  /* Typography */
+  --text-main: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+  --text-white: #FFFFFF;
+
+  /* Borders & Dividers */
+  --border-subtle: #E2E8F0;
+  --border-focus: #4F46E5;
+  --border-glass: rgba(255, 255, 255, 0.2);
+
+  /* Elevation Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 1px 2px -1px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.06);
+  --shadow-hover: 0 20px 30px -10px rgba(79, 70, 229, 0.15);
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Layout */
+  --nav-height: 76px;
+  --font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

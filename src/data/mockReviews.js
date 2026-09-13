@@ -1,0 +1,117 @@
+export const mockReviews = [
+  {
+    id: 'rev-1',
+    eventId: 'evt-101',
+    userName: 'Rohan Sharma',
+    userCity: 'Mumbai',
+    userAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80',
+    rating: 5,
+    date: '3 weeks ago',
+    comment: 'Attended his concert last year at Jio World and it was simply magical! The acoustic arrangements and live orchestra are unmatched. Don\'t miss the VIP lounge if you can grab it.'
+  },
+  {
+    id: 'rev-2',
+    eventId: 'evt-101',
+    userName: 'Priya Iyer',
+    userCity: 'Pune',
+    userAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80',
+    rating: 5,
+    date: '1 month ago',
+    comment: 'Eventify made booking so smooth! Got digital passes instantly on WhatsApp and email. Can\'t wait for October 18th.'
+  },
+  {
+    id: 'rev-3',
+    eventId: 'evt-102',
+    userName: 'Ananya Verma',
+    userCity: 'Bengaluru',
+    userAvatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=80',
+    rating: 5,
+    date: '2 months ago',
+    comment: 'The quality of speakers at TechSummit is top tier. Networking during the lunch hour helped us close our pre-seed angel round!'
+  },
+  {
+    id: 'rev-4',
+    eventId: 'evt-103',
+    userName: 'Vikramaditya Rao',
+    userCity: 'Mumbai',
+    userAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80',
+    rating: 4,
+    date: '3 months ago',
+    comment: 'Running along Marine Drive at midnight with live dhol beats is an experience everyone in Mumbai must have once. Superbly organized hydration stations.'
+  }
+];
+
+export const initialBookings = [
+  {
+    bookingId: 'EVT-89421',
+    eventId: 'evt-101',
+    eventTitle: 'Arijit Singh Live in Concert',
+    category: 'music',
+    eventImage: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&auto=format&fit=crop&q=80',
+    date: '2026-10-18',
+    time: '06:30 PM - 10:30 PM',
+    venue: 'Jio World Garden, BKC, Mumbai',
+    ticketType: 'VIP Platinum Lounge',
+    tierId: 'vip',
+    quantity: 2,
+    pricePerTicket: 2999,
+    subtotal: 5998,
+    fees: 599.8,
+    taxes: 1079.64,
+    totalAmount: 7677.44,
+    status: 'Upcoming', // 'Upcoming' | 'Past' | 'Cancelled'
+    bookingDate: '2026-09-08',
+    attendeeName: 'Ajmal Khan',
+    attendeeEmail: 'ajmal@example.com',
+    attendeePhone: '+91 98765 43210',
+    seatInfo: 'VIP Lounge Deck A - Row 3'
+  },
+  {
+    bookingId: 'EVT-41092',
+    eventId: 'evt-104',
+    eventTitle: 'Startup Connect Pune 2026',
+    category: 'business',
+    eventImage: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop&q=80',
+    date: '2026-10-25',
+    time: '10:00 AM - 05:30 PM',
+    venue: 'Westin Ballroom, Koregaon Park, Pune',
+    ticketType: 'Pro Delegate Ticket',
+    tierId: 'premium',
+    quantity: 1,
+    pricePerTicket: 1499,
+    subtotal: 1499,
+    fees: 149.9,
+    taxes: 269.82,
+    totalAmount: 1918.72,
+    status: 'Upcoming',
+    bookingDate: '2026-09-10',
+    attendeeName: 'Ajmal Khan',
+    attendeeEmail: 'ajmal@example.com',
+    attendeePhone: '+91 98765 43210',
+    seatInfo: 'Auditorium Center - Pass #48'
+  },
+  {
+    bookingId: 'EVT-19283',
+    eventId: 'evt-105',
+    eventTitle: 'The Comedy Factory: Stand-up Royale',
+    category: 'theater',
+    eventImage: 'https://images.unsplash.com/photo-1514306191717-452ec28c7814?w=800&auto=format&fit=crop&q=80',
+    date: '2026-07-20',
+    time: '08:00 PM - 10:00 PM',
+    venue: 'Kamani Auditorium, New Delhi',
+    ticketType: 'Middle Tier Gold',
+    tierId: 'premium',
+    quantity: 2,
+    pricePerTicket: 799,
+    subtotal: 1598,
+    fees: 159.8,
+    taxes: 287.64,
+    totalAmount: 2045.44,
+    status: 'Past',
+    bookingDate: '2026-07-02',
+    attendeeName: 'Ajmal Khan',
+    attendeeEmail: 'ajmal@example.com',
+    attendeePhone: '+91 98765 43210',
+    seatInfo: 'Row F - Seats 14, 15'
+  }
+];
