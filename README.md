@@ -94,10 +94,6 @@ Users can explore different events and discover relevant experiences.
 
 Users can search and filter events based on their requirements.
 
-### 🤖 AI-Powered Discovery
-
-AI can assist users in finding events using natural-language queries and personalized recommendations.
-
 ### 📱 Responsive UI
 
 The interface adapts to desktop, tablet, and mobile devices.
